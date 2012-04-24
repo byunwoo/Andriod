@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="net.cjcity.mobile"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" 
+    android:theme="@style/cjcityTheme"
+    >
+    <!--  
+    -->
+        <activity android:name=".MobileMainActivity" 
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name="net.cjcity.mobile.reservation.view.OrganListActivity" android:label="@string/orgran_list_title"
+		 >
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"></action>
+				<category android:name="android.intent.category.DEFAULT"></category>
+			</intent-filter>
+		</activity>
+		<activity android:name="net.cjcity.mobile.reservation.view.OrganViewActivity" android:label="@string/orgran_view_title"
+		 android:launchMode="singleTask">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"></action>
+				<category android:name="android.intent.category.DEFAULT"></category>
+			</intent-filter>
+		</activity>
+		<activity android:name="net.cjcity.mobile.reservation.view.ProgramListActivity" android:label="@string/program_list_title"
+		 >
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"></action>
+				<category android:name="android.intent.category.DEFAULT"></category>
+			</intent-filter>
+		</activity>
+		<activity android:name="net.cjcity.mobile.reservation.view.ProgramViewActivity" android:label="@string/program_view_title"
+		android:launchMode="singleTask"><intent-filter>
+				<action android:name="android.intent.action.VIEW"></action>
+				<category android:name="android.intent.category.DEFAULT"></category>
+			</intent-filter>
+		</activity>
+		<activity android:name="net.cjcity.mobile.reservation.view.ReceiptListActivity" android:label="@string/receipt_list_title">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"></action>
+				<category android:name="android.intent.category.DEFAULT"></category>
+			</intent-filter>
+		</activity>
+		<activity android:name="net.cjcity.mobile.reservation.view.ReceiptCalendarActivity" android:label="@string/receipt_calendar_title"
+		android:launchMode="singleTask">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"></action>
+				<category android:name="android.intent.category.DEFAULT"></category>
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".reservation.view.MusicAlarmActivity"></activity>
+		
+    </application>
+    <uses-sdk android:minSdkVersion="7" />
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+</manifest> 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+					style="@style/titleBar"
+					android:id="@+id/receipt_list_title"
+				android:layout_height="wrap_content" 
+				android:text="@string/receipt_list_title" />
+		
+	<TextView android:layout_width="fill_parent" android:id="@+id/emptyTxt01"
+		android:layout_height="wrap_content" android:text="검색된 접수가 없습니다..." />
+	<ListView android:id="@+id/ListView01" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_weight="1"></ListView>
+		
+	<Button android:text="접수달력보기" android:id="@+id/goReceiptCalendar" style="@style/buttonStyle" 
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</LinearLayout>

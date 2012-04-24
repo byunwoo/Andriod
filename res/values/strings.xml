@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">청주시 통합예약</string>
+	<string name="main_title">청주시 통합예약 모바일 </string>
+	<string name="orgran_view_title">기관 상세 보기</string>
+	<string name="orgran_list_title">기관 목록</string>
+	<string name="program_view_title">프로그램 상세</string>
+	<string name="program_list_title">프로그램 목록</string>
+	<string name="receipt_view_title">접수 상세 보기</string>
+	<string name="receipt_list_title">접수 목록</string>
+	<string name="receipt_calendar_title">접수 일정</string>
+
+	<string name="goOrganList">기관목록</string>
+	<string name="goReceiptCalendar">접수일정</string>
+	<string name="goNoticeBoard">공지사항</string>
+
+</resources>

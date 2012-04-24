@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+
+	<Button android:text="알람끄기" android:id="@+id/alarmBtn"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+
+	<TextView android:text="통합예약 접수 알람입니다..." android:id="@+id/alarmTxt"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"></TextView>
+</LinearLayout>

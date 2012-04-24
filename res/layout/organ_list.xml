@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/organLayout"
+	>
+	<TextView android:layout_width="fill_parent"
+		style="@style/titleBar"
+		android:layout_height="wrap_content" android:text="@string/orgran_list_title" />
+		
+	<LinearLayout
+	android:id="@+id/searchLayout"
+	 android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+			
+		<EditText android:hint="기관명 입력" android:id="@+id/searchText01" android:layout_weight="0.2"
+			android:background="@android:drawable/editbox_dropdown_light_frame"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+		<Button android:text="검색" android:id="@+id/serachBtn01" android:layout_weight="0.8"
+			style="@style/buttonStyle"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+			
+	</LinearLayout>
+	
+	<TextView android:layout_width="fill_parent" android:id="@+id/emptyTxt01"
+		android:layout_height="wrap_content" android:text="검색된 기관이 없습니다..." />
+	<ListView android:id="@+id/ListView01" android:layout_width="fill_parent"
+		android:layout_height="fill_parent"></ListView>
+</LinearLayout>

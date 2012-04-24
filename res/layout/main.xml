@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/main_bg"
+	android:paddingTop="320dp"
+	>
+	<!-- 
+	<TextView android:layout_width="fill_parent" 	style="@style/cjcityTheme" 
+		android:layout_height="wrap_content" android:text="@string/main_title" />
+	 -->
+
+		<Button android:id="@+id/goOrganList" android:text="@string/goOrganList"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_alignParentTop="true"
+			style="@style/mainButtonStyle"
+			 />
+		<Button android:id="@+id/goReceiptCalendar" android:text="@string/goReceiptCalendar"
+			android:layout_height="wrap_content" 
+			android:layout_centerHorizontal="true"
+			android:layout_below="@id/goOrganList"
+			style="@style/mainButtonStyle"
+			/>
+			<!--
+		<Button android:id="@+id/goNoticeBoard" android:text="@string/goNoticeBoard"
+			android:layout_height="wrap_content" 
+			android:layout_centerHorizontal="true"
+			android:layout_below="@id/goOrganList"
+			style="@style/mainButtonStyle"
+			/>-->
+
+</RelativeLayout>
